@@ -89,7 +89,7 @@ class App extends Component {
         })
         .then(response => response.json())
         .then(response => {
-            console.log('hi', response)
+            //console.log('hi', response)
             if (response) {
                 fetch('https://intense-retreat-78499.herokuapp.com/image', {
                     method: 'put',
